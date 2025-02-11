@@ -1,0 +1,45 @@
+.register-page {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.register-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register-card {
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.register-card h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.register-card .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  transition: background-color 0.3s ease;
+}
+
+.register-card .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Адаптивність */
+@media (max-width: 768px) {
+  .register-card h2 {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .register-card {
+    padding: 2rem;
+  }
+}

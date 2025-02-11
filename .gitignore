@@ -1,0 +1,103 @@
+# -----------------
+# Python / Flask (Backend)
+# -----------------
+
+# Byte-compiled / cached / virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.bak
+*.orig
+*.rej
+
+# Dependency management
+Pipfile
+Pipfile.lock
+poetry.lock
+requirements.txt
+
+# SQLite database (if using SQLite)
+db.sqlite3
+*.sqlite3
+
+# PostgreSQL / MySQL dump files
+*.dump
+*.sql
+
+# Logs and debug files
+logs/
+*.log
+debug.log
+
+# Static and media files
+static/
+media/
+
+# Compiled translations
+*.mo
+
+
+# Ignore pytest and testing files
+.pytest_cache/
+coverage/
+htmlcov/
+.nyc_output/
+
+# -----------------
+# React (Frontend)
+# -----------------
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build outputs
+build/
+dist/
+.cache/
+public/build/
+
+
+# Logs
+logs/
+*.log
+debug.log
+yarn-error.log
+
+# Cypress test results
+cypress/videos/
+cypress/screenshots/
+
+# Jest snapshots
+__snapshots__/
+
+# Storybook builds
+.storybook-out/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# IDE / Editor specific files
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+*.swp
+
+# Docker files (if using Docker)
+.dockerignore
+docker-compose.override.yml
+
+# Kubernetes files (if using Kubernetes)
+.kube/

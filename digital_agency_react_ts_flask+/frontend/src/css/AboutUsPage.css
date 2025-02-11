@@ -1,0 +1,68 @@
+.mission-section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.mission-section p {
+  font-size: 1.25rem;
+}
+
+.mission-item {
+  margin-bottom: 30px;
+}
+
+/* Team Section */
+.team-card {
+  border: none;
+  transition: transform 0.3s ease;
+  -webkit-transition: transform 0.3s ease;
+  -moz-transition: transform 0.3s ease;
+  -ms-transition: transform 0.3s ease;
+  -o-transition: transform 0.3s ease;
+}
+
+.team-card:hover {
+  transform: scale(1.05);
+}
+
+.team-card img {
+  border-radius: 10px;
+}
+
+/* Values Section */
+.values-section h2 {
+  font-size: 2.5rem;
+}
+
+.value-box i {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.value-box h4 {
+  font-weight: bold;
+}
+
+/* Testimonials Section */
+.testimonial {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.testimonial h5 {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .mission-section h2,
+  .values-section h2 {
+    font-size: 2rem;
+  }
+
+  .team-card img {
+    height: auto;
+  }
+}

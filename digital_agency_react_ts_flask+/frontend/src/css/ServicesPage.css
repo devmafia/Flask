@@ -1,0 +1,54 @@
+.services-page h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.services-page p {
+  font-size: 1.25rem;
+}
+
+.service-card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.service-card .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  transition: background-color 0.3s ease;
+}
+
+.service-card .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Адаптивність */
+@media (max-width: 768px) {
+  .services-page h2 {
+    font-size: 2rem;
+  }
+
+  .services-page p {
+    font-size: 1rem;
+  }
+
+  .service-card img {
+    height: 150px;
+  }
+}
+
+@media (max-width: 576px) {
+  .service-card img {
+    height: 120px;
+  }
+}

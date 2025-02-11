@@ -1,0 +1,41 @@
+.admin-panel {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.table th, .table td {
+  vertical-align: middle;
+}
+
+.table td {
+  text-align: center;
+}
+
+/* Картка модального вікна */
+.modal-body {
+  font-size: 1rem;
+}
+
+/* Адаптивність */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .admin-panel {
+    padding: 10px;
+  }
+}

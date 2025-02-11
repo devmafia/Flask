@@ -1,0 +1,45 @@
+.login-page {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.login-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-card {
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.login-card h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.login-card .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  transition: background-color 0.3s ease;
+}
+
+.login-card .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Адаптивність */
+@media (max-width: 768px) {
+  .login-card h2 {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .login-card {
+    padding: 2rem;
+  }
+}
